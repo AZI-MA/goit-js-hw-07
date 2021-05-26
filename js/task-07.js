@@ -1,10 +1,10 @@
-const refs7 = {
+const refs = {
   input: document.querySelector("#font-size-control"),
   span: document.querySelector("#text"),
 };
 
-refs7.input.addEventListener("input", changeFontSize);
+refs.input.addEventListener("input", changeFontSize);
 
 function changeFontSize(e) {
-  refs7.span.style.fontSize = e.target.value + "px";
+  refs.span.style.fontSize = e.target.value + "px";
 };
